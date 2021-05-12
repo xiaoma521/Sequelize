@@ -28,8 +28,6 @@ async function windowAcitons(){
         
         const random = getRandomIntInclusive(0, meals.length - 1);
         return meals[random];
-        
-
 
     });
 
@@ -38,5 +36,6 @@ async function windowAcitons(){
 
 }
     
+
 
 window.onload = windowAcitons;
